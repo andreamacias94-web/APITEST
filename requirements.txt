@@ -1,0 +1,10 @@
+# Dependencias del proyecto APIVercel (Flask)
+# Única librería activa en apitest.py — los demás imports están comentados.
+#
+# Para REGENERAR este archivo después de cambiar dependencias:
+#   pip install pipreqs
+#   pipreqs . --force
+#
+# (alternativa simple, pero lista TODOS los paquetes del entorno):
+#   pip freeze > requirements.txt
+Flask==3.1.3
